@@ -18,18 +18,18 @@ form.addEventListener('submit', (event: Event) =>{
     const resumeHTML = `
     <h2><b>Editable Resume</b></h2>
     <h3>Personal Information</h3>
-    <p><b>Name </b><span contenteditable="true">${name}</span></p>
-    <p><b>Email </b><span contenteditable="true">${email}</span></p>
-    <p><b>Phone </b><span contenteditable="true">${phone}</span></p>
+    <p><b>Name: </b><span contenteditable="true">${name}</span></p>
+    <p><b>Email: </b><span contenteditable="true">${email}</span></p>
+    <p><b>Phone:</b><span contenteditable="true">${phone}</span></p>
 
     <h3>Education</h3>
-    <p <span contenteditable="true">>${education}</p>
+    <p <span contenteditable="true">${education}</p>
 
     <h3>Experience</h3>
-    <p <span contenteditable="true">>${experience}</p>
+    <p <span contenteditable="true">${experience}</p>
 
-    <h>3Skills</h3>
-    <p <span contenteditable="true">>${skills}</p>
+    <h>Skills</h3>
+    <p <span contenteditable="true">${skills}</p>
 
     `;
 
